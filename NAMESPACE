@@ -1,0 +1,22 @@
+useDynLib(cents, tacvfARMA_C)
+
+export(
+"EZR",
+"EZL",
+"Erf",
+"Erfc",
+"rcarma",
+"cenarma",
+"scenNID",
+"tacvfARMA",
+"boot.Cenarma",
+"se.Cenarma",
+"ar1est0",
+"fitar1",
+"fitcar1",
+"CM"
+)
+
+S3method("plot","cents")
+S3method("summary","cents")
+S3method("print","Cenarma")
